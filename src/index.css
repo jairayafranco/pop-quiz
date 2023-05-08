@@ -1,0 +1,20 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.buttons-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.correct-answer {
+    background-color: green !important;
+}
+
+.wrong-answer {
+    background-color: red !important;
+}
